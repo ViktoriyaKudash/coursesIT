@@ -13,7 +13,12 @@ namespace B_3_Operators
         /// </summary>
         public static void B3_P1_9_NumbersAddition()
         {
-
+            Console.WriteLine("Введите число 1");
+            int q = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Введите число 2");
+            int e = Convert.ToInt16(Console.ReadLine());
+            int c = q + e;
+            Console.WriteLine("Результат" + c);
         }
 
         /// <summary>
@@ -23,7 +28,21 @@ namespace B_3_Operators
         /// </summary>
         public static void B3_P2_9_CheckResultAddition()
         {
+            Console.WriteLine("Введите число 1");
+            int t = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Введите число 2");
+            int y = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Результат:");
+            int c = Convert.ToInt16(Console.ReadLine());
+            if (c == y + t)
+            {
+                Console.WriteLine("Правильно!");
+            }
+            else
+            {
+                Console.WriteLine("Неправильно!");
 
+            }
         }
 
         /// <summary>
@@ -33,7 +52,24 @@ namespace B_3_Operators
         /// </summary>
         public static void B3_P3_9_CheckResultAdditionWithTips()
         {
-
+            Console.WriteLine("Введите число 1");
+            int num1 = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Введите число 2");
+            int num2 = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Результат:");
+            int res = Convert.ToInt16(Console.ReadLine());
+            if (res == num1 + num2)
+            {
+                Console.WriteLine("Правильно!");
+            }
+            else if (res <= num1 + num2)
+            {
+                Console.WriteLine("Должно быть больше!");
+            }
+            else if (res >= num1 + num2)
+            {
+                Console.WriteLine("Должно быть меньше !");
+            }
         }
 
         /// <summary>
@@ -51,7 +87,27 @@ namespace B_3_Operators
         /// </summary>
         public static void B3_P5_9_CheckResultWithAttemps()
         {
+            Console.WriteLine("Введите число 1");
+            int num1 = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Введите число 2");
+            int num2 = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Результат:");
+            int res = Convert.ToInt16(Console.ReadLine());
+            if (res == num1 + num2)
+            {
+                Console.WriteLine("Правильно!");
+            }
+            else if (res <= num1 + num2)
+            {
+                Console.WriteLine("Должно быть больше!");
+                Console.WriteLine("Результат:");
+            }
 
+            else if (res >= num1 + num2)
+            {
+                Console.WriteLine("Должно быть меньше !");
+                Console.WriteLine("Результат:");
+            }
         }
 
         /// <summary>
@@ -60,7 +116,29 @@ namespace B_3_Operators
         /// </summary>
         public static void B3_P6_9_FiveNumbersAddition()
         {
+            Console.WriteLine("Введите число 1");
+            int num1 = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Введите числа 2-5");
+            int num2 = Convert.ToInt16(Console.ReadLine());
+            int num3 = Convert.ToInt16(Console.ReadLine());
+            int num4 = Convert.ToInt16(Console.ReadLine());
+            int num5 = Convert.ToInt16(Console.ReadLine());
 
+            Console.WriteLine("Результат:");
+            int res = Convert.ToInt16(Console.ReadLine());
+            if (res == num1 + num2 + num3 + num4 + num5)
+            {
+                Console.WriteLine("Правильно!");
+            }
+            else if (res <= num1 + num2)
+            {
+                Console.WriteLine("Должно быть больше!");
+            }
+            else if (res >= num1 + num2)
+            {
+                Console.WriteLine("Должно быть меньше !");
+
+            }
         }
 
         /// <summary>
@@ -77,7 +155,11 @@ namespace B_3_Operators
         /// </summary>
         public static void B3_P8_9_CircleArea()
         {
-
+            Console.WriteLine("Введите радиуc круга");
+            int r = Convert.ToInt16(Console.ReadLine());
+            double s;
+            s = Math.PI * r;
+            Console.WriteLine(" Площадь вашего круга = " + s);
         }
 
         /// <summary>
@@ -85,6 +167,18 @@ namespace B_3_Operators
         /// </summary>
         public static void B3_P9_9_CreaditCalculator()
         {
+            Console.WriteLine("Введите сумму кредита ");
+            int sum = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Введите проценты кредита");
+            double perс = Convert.ToInt16(Console.ReadLine());
+            double perc1 = perс / 100;
+            double prvyear = perc1 * sum;
+            Console.WriteLine("ПРоцент в год  = " + prvyear, "руб");
+            double Obsum = sum + prvyear;
+            Console.WriteLine("Общая сумма выплат составит = " + Obsum, "руб");
+
+            double moun = Obsum / 12;
+            Console.WriteLine("Выплаты по месяцам =" + moun);
 
         }
     }

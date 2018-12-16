@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\B-2-System-Types"
+    "\\B-2-System-Types",
+    "\\B_3-Operarors",
+    "\\B_3-Operarors\\B-3-Operators\\bin",
+    "\\B_3-Operarors\\B-3-Operators\\obj\\Debug\\TempPE"
   ],
-  "SelectedNode": "\\B-2-System-Types\\B-2-System-Types.sln",
+  "SelectedNode": "\\B_3-Operarors\\B-3-Operators",
   "PreviewInSolutionExplorer": false
 }
