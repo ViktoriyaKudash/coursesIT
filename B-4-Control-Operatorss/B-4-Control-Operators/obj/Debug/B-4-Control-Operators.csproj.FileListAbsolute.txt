@@ -5,3 +5,10 @@ d:\ITAcademy\03-12-2018\GIT\B-4-Control-Operators\B-4-Control-Operators\obj\Debu
 d:\ITAcademy\03-12-2018\GIT\B-4-Control-Operators\B-4-Control-Operators\obj\Debug\B-4-Control-Operators.csproj.CoreCompileInputs.cache
 d:\ITAcademy\03-12-2018\GIT\B-4-Control-Operators\B-4-Control-Operators\obj\Debug\Basic.Lesson_4._1.exe
 d:\ITAcademy\03-12-2018\GIT\B-4-Control-Operators\B-4-Control-Operators\obj\Debug\Basic.Lesson_4._1.pdb
+D:\курсы\coursesIT\B-4-Control-Operatorss\B-4-Control-Operators\bin\Debug\Basic.Lesson_4._1.exe.config
+D:\курсы\coursesIT\B-4-Control-Operatorss\B-4-Control-Operators\bin\Debug\Basic.Lesson_4._1.exe
+D:\курсы\coursesIT\B-4-Control-Operatorss\B-4-Control-Operators\bin\Debug\Basic.Lesson_4._1.pdb
+D:\курсы\coursesIT\B-4-Control-Operatorss\B-4-Control-Operators\obj\Debug\B-4-Control-Operators.csprojAssemblyReference.cache
+D:\курсы\coursesIT\B-4-Control-Operatorss\B-4-Control-Operators\obj\Debug\B-4-Control-Operators.csproj.CoreCompileInputs.cache
+D:\курсы\coursesIT\B-4-Control-Operatorss\B-4-Control-Operators\obj\Debug\Basic.Lesson_4._1.exe
+D:\курсы\coursesIT\B-4-Control-Operatorss\B-4-Control-Operators\obj\Debug\Basic.Lesson_4._1.pdb
