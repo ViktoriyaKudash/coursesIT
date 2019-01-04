@@ -1,0 +1,7 @@
+D:\1.курсы\coursesIT\B-6-Arrays-master\B-6-Arrays-master\B-6-Arrays-Strings\bin\Debug\Base.Lesson_6.exe.config
+D:\1.курсы\coursesIT\B-6-Arrays-master\B-6-Arrays-master\B-6-Arrays-Strings\bin\Debug\Base.Lesson_6.exe
+D:\1.курсы\coursesIT\B-6-Arrays-master\B-6-Arrays-master\B-6-Arrays-Strings\bin\Debug\Base.Lesson_6.pdb
+D:\1.курсы\coursesIT\B-6-Arrays-master\B-6-Arrays-master\B-6-Arrays-Strings\obj\Debug\B-6-Arrays-Strings.csprojAssemblyReference.cache
+D:\1.курсы\coursesIT\B-6-Arrays-master\B-6-Arrays-master\B-6-Arrays-Strings\obj\Debug\B-6-Arrays-Strings.csproj.CoreCompileInputs.cache
+D:\1.курсы\coursesIT\B-6-Arrays-master\B-6-Arrays-master\B-6-Arrays-Strings\obj\Debug\Base.Lesson_6.exe
+D:\1.курсы\coursesIT\B-6-Arrays-master\B-6-Arrays-master\B-6-Arrays-Strings\obj\Debug\Base.Lesson_6.pdb
