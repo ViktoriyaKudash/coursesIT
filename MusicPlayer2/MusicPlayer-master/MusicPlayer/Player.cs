@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MusicPlayer.Extensions;
+using System;
 using System.Collections.Generic;
 
 namespace MusicPlayer
@@ -139,37 +140,16 @@ namespace MusicPlayer
 
         public void Shuffle()
         {
-            Random random = new Random();
-            for (int i = 0; i < Songs.Count; i++)
             {
-                Song temp = Songs[0];
-                Songs.RemoveAt(0);
-                Songs.Insert(random.Next(Songs.Count + 1), temp);
+                this.Songs.Shuffle();
             }
         }
 
         public void SortByTitle()
         {
-            var LocalList = new List<string>();
 
-            foreach (var item in Songs)
-            {
-                LocalList.Add(item.Title);
-            }
-
-            LocalList.Sort();
-
-            var NewSongs = new List<Song>();
-
-            foreach (var item in LocalList)
-            {
-                foreach (var item2 in Songs)
-                {
-                    if (item == item2.Title)
-                        NewSongs.Add(item2);
-                }
-            }
-            Songs = NewSongs;
+            Songs.Sort();
+           
         }
 
         public void SortByTitle1()
