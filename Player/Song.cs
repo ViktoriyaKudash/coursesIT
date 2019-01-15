@@ -12,7 +12,17 @@ namespace MusicPlayer
         public string Name;
         public Artist Artist;
         public Album Album;
+        public bool Like = null;
 
+        public void LikeSong()
+        {
+            Like = true;
+        }
+
+        public void DislikeSong()
+        {
+            Like = false;
+        }
         public int CompareTo(object obj)
         {
             //if (this.Name == null)
